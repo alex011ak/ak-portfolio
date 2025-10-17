@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(135deg, #1e293b 50%, #5eead4 100%);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+/* Main container with glass effect */
+.main-glass {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  max-width: 950px;
+}
+
+/* Inner sections */
+.glass-section {
+  background: rgba(255,255,255,0.22);
+  border-radius: 12px;
+  padding: 18px 15px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 20px rgba(30, 41, 59, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+header img {
+  box-shadow: 0 0 12px #5eead4;
+  border: 4px solid rgba(255,255,255,0.32);
+}
+
+.bio {
+  color: #7d9ecc;
+  font-size: 1.05rem;
+}
+
+/* Footer */
+.glass-footer {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+  color: #f0fdfa;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Titles */
+h1, h3 {
+  color: #0b1623;
+}
+
+/* Links */
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.hov:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
